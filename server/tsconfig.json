@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                          // Set the JavaScript version to output
+    "module": "commonjs",                     // Set the module system
+    "jsx": "react",                           // Support for JSX
+    "outDir": "./dist",                       // Output directory for compiled files
+    "rootDir": "./src",                       // Root directory of source files
+    "strict": true,                           // Enable strict type-checking options
+    "esModuleInterop": true,                  // Enable compatibility with CommonJS
+    "skipLibCheck": true,                     // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true  // Ensure consistent casing in filenames
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx"],  // Include TypeScript files
+  "exclude": ["node_modules", "dist"]           // Exclude node_modules and dist directories
+}
